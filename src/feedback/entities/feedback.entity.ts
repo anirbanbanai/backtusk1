@@ -7,8 +7,7 @@ export class Feedback {
     id:number;
 
     @Column()
-    recievedate:string;
-
+    recievedate:string; 
     @Column()
     recieveByName:string;
     
@@ -34,13 +33,13 @@ export class Feedback {
     categoryOfFeedback :string;
 
     @Column()
-    firp:string;
+    feedbackProjectIssues :string;
 
     @Column()
-    fidp:string;
+    feedbackDepartmentIssues :string;
 
     @Column()
-    indiThemeticeTA :string;
+    indicateThemeAria:string;
 
     @Column()
     categoryOfComplaint :string;
@@ -56,6 +55,7 @@ export class Feedback {
  
     @Column({nullable: true})
     remark :string;
+
 
     @Column({nullable: true})
     feedback_giver_name :string;
@@ -87,7 +87,7 @@ export class Feedback {
     @Column({nullable: true})
     number_of_hh_affected :string;
 
-    @Column({nullable: true})
+    @Column({nullable: true}) 
     project :string;
 
     @Column({nullable: true})
