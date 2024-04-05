@@ -32,13 +32,13 @@ export class Feedback {
     @Column()
     categoryOfFeedback :string;
 
-    @Column()
+    @Column({nullable:true})
     feedbackProjectIssues :string;
 
-    @Column()
+    @Column({nullable:true, default:'Default'})
     feedbackDepartmentIssues :string;
 
-    @Column()
+    @Column({nullable:true, default:'Default'})
     indicateThemeAria:string;
 
     @Column()

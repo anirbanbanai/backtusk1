@@ -17,4 +17,5 @@ export class CreateFeedbackDto {
   instantResponse: string;
   anyDisability: string;
   remark?: string;
+  feedbackProjectIssues:string
 }
